@@ -1,0 +1,72 @@
+
+h1{
+    color: rgb(43, 241, 69);
+}
+/**{
+    border: solid;
+}*/
+
+.menu{
+    margin: 30px;
+}
+.header *{
+    background-color: rgb(245, 136, 181);
+    display: flex;
+   justify-content: space-around;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+body{
+    background-color:  #f588f5;
+}
+
+a:link{
+    color: rgb(46, 10, 145);
+}
+
+a:visited{
+    color: crimson;
+}
+
+a:hover{
+    color: darkgoldenrod;
+}
+
+.item{
+    position: relative;
+
+}
+
+.item h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    opacity: 0;
+}
+.item img{
+    opacity: 0.5;
+}
+.item:hover img{
+    opacity: 1;
+}
+
+.item:hover h2{
+    opacity: 1;
+}
+
+
